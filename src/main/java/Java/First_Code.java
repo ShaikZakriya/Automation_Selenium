@@ -6,6 +6,7 @@ public class First_Code {
 		
 		String name = "Automation";
 		int a = 50;
+<<<<<<< Updated upstream
         int b = 100;
 		
 		System.out.println(name);
@@ -15,6 +16,10 @@ public class First_Code {
 		
 		
 	
+=======
+		System.out.println("a");
+		
+>>>>>>> Stashed changes
 
 	}
 
