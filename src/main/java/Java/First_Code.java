@@ -6,12 +6,14 @@ public class First_Code {
 		
 		String name = "Automation";
 		int a = 50;
-
-		int b = 100;
+        int b = 100;
 		
-		System.out.println("b");
-
-		System.out.println("a");
+		System.out.println(name);
+        System.out.println(a);
+        System.out.println(b);
+        
+		
+		
 	
 
 	}
