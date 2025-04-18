@@ -8,7 +8,9 @@ public class First_Code {
 		int a = 50;
 		int b = 100;
 		
-		System.out.println("b");
+		//System.out.println("a+b");
+		 System.out.println("a = " + a);
+	        System.out.println("b = " + b);
 
 	}
 
