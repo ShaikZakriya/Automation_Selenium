@@ -6,6 +6,9 @@ public class First_Code {
 		
 		String name = "Automation";
 		int a = 50;
+		int b = 100;
+		
+		System.out.println("b");
 
 	}
 
