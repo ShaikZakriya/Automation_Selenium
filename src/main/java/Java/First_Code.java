@@ -6,11 +6,13 @@ public class First_Code {
 		
 		String name = "Automation";
 		int a = 50;
-		int b = 100;
+        int b = 100;
 		
-		//System.out.println("a+b");
-		 System.out.println("a = " + a);
-	        System.out.println("b = " + b);
+		System.out.println(name);
+        System.out.println(a);
+        System.out.println(b);
+        
+
 
 	}
 
