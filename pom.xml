@@ -17,6 +17,7 @@
   </properties>
 
   <dependencyManagement>
+   
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
@@ -40,11 +41,21 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-    	<groupId>MyLearning</groupId>
-    	<artifactId>MyLearning</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/app.cash.wisp/wisp-logging -->
+<dependency>
+    <groupId>app.cash.wisp</groupId>
+    <artifactId>wisp-logging</artifactId>
+    <version>2025.04.18.205229-1494a46</version>
+    <scope>runtime</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.31.0</version>
+</dependency>
+   
   </dependencies>
 
   <build>
