@@ -6,6 +6,8 @@ public class Aman_Firstcode {
 		int b = 20;
 		System.out.println(a);
 		System.out.println(b);
+		String Z = "Zakeer";
+		System.out.println(Z);
 		
 		
 		
