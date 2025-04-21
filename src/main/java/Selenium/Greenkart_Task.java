@@ -12,6 +12,8 @@ public class Greenkart_Task {
 		driver.manage().window().maximize();
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		
+		
+		
 		WebElement cucumber = driver.findElement(By.xpath("//div[@class='product' and . //h4[text()='Cucumber - 1 Kg']]//a[@class='increment']"));
 		
 		for (int i=0; i<4; i++)
@@ -21,6 +23,8 @@ public class Greenkart_Task {
 		}
 		
             driver.quit();
+            
+            System.out.println("Zakriya");
 	}
 
 }
