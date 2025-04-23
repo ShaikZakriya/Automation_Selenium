@@ -26,7 +26,7 @@ public class Oddnumbers_print {
 		{
 			String str = options.get(i).getText();
 			
-			if(!(i%2==0))
+			if(i%2==0)
 			{
 				System.out.println(str);
 			}
