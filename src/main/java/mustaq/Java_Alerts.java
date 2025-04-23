@@ -9,7 +9,7 @@ public class Java_Alerts {
 		// TODO Auto-generated method stub
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
+  		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("name")).sendKeys("Arise"); 
 		driver.findElement(By.id("alertbtn")).click();
 		System.out.println(driver.switchTo().alert().getText());
