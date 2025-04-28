@@ -3,24 +3,20 @@ package Collections;
 import java.util.ArrayList;
 
 public class Array_list {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		  // Creating an ArrayList
+    public static void main(String[] args) {
         ArrayList<String> fruits = new ArrayList<>();
-
-        // Adding elements to the ArrayList
-        fruits.add("Mango");
+        fruits.add("Apple");
         fruits.add("Banana");
+        fruits.add("Orange");
         fruits.add("Kiwi");
 
         // Displaying the ArrayList
         System.out.println("Fruits: " + fruits);
 
-        // Accessing an element by index
-        System.out.println(");
+        // Accessing an element by index (FIXED LINE)
+        System.out.println("Element at index 1: " + fruits.get(1));
 
-   /*     // Modifying an element
+        // Modifying an element
         fruits.set(1, "Kiwi");
         System.out.println("Updated fruits: " + fruits);
 
@@ -30,7 +26,5 @@ public class Array_list {
 
         // Size of the ArrayList
         System.out.println("Size of ArrayList: " + fruits.size());
-    } */
+    }
 }
-}
-
