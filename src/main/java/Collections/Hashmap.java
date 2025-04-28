@@ -12,9 +12,9 @@ public class Hashmap {
 
         // Adding key-value pairs to the HashMap
         ageMap.put("Zakir", 25);
-        ageMap.put("Aman", 30);
-        ageMap.put("Imran", 35);
-        ageMap.put("Mustaq", 40);
+        ageMap.put("Aman", 35);
+        ageMap.put("Imran", 45);
+        ageMap.put("Mustaq", 55);
 
         // Displaying the HashMap
         System.out.println("HashMap: " + ageMap);
