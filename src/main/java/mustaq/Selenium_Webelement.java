@@ -25,6 +25,8 @@ public class Selenium_Webelement {
 		{
 			System.out.println(links.get(i).getText());
 			
+			String amount = links.get(i).getText();
+			
 			
 
 		}
