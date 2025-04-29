@@ -40,6 +40,11 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    	<groupId>Bluestone</groupId>
+    	<artifactId>ZakirHussainShaik</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 
   <build>
