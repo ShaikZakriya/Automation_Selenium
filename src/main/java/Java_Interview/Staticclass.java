@@ -1,4 +1,4 @@
-package StaticandNonStatic;
+package Java_Interview;
 
 public class Staticclass {
 

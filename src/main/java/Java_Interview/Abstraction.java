@@ -1,4 +1,4 @@
-package OOPS;
+package Java_Interview;
 
 public class Abstraction {
 

@@ -1,4 +1,4 @@
-package OOPS;
+package Java_Interview;
 
 public class Inheritance {
 	public static void main(String[] args) {

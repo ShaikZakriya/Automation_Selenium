@@ -1,4 +1,4 @@
-package Collections;
+package Java_Interview;
 import java.util.HashSet;
 
 public class Hashset {

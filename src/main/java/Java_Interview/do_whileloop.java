@@ -1,4 +1,4 @@
-package All_Loops;
+package Java_Interview;
 
 public class do_whileloop {
 
