@@ -40,18 +40,11 @@
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>4.32.0</version>
-=======
-    <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.0.0</version>
->>>>>>> ab4ceb14d8165cce29b19caf286c09b61a7b0e1c
 </dependency>
   </dependencies>
 
