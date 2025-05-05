@@ -16,7 +16,7 @@ public class Locators3 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	    driver.get("https://rahulshettyacademy.com/AutomationPractice/");
-	  System.out.println(driver.findElement(By.xpath("//div/button[1]/following-sibling::button[1]")).getText());
+	   System.out.println(driver.findElement(By.xpath("//div/button[1]/following-sibling::button[1]")) .getText());
 	   System.out.println(driver.findElement(By.xpath("//div/button[2]/parent::div/button[2]")).getText());
 
 	}
