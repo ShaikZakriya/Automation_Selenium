@@ -14,34 +14,25 @@ public class ScrollAndClickGoogleIcon {
        
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 
-//        // Open the website
-//        driver.get("https://demo.automationtesting.in/Register.html");
-//
-//        // Find the Google Icon
-//        WebElement googleIcon = driver.findElement(By.xpath("//footer//a[contains(@href,'plus.google.com')]"));
-//
-//        // Scroll to the Google+ icon
-//        JavascriptExecutor js = (JavascriptExecutor) driver;
-//        js.executeScript("arguments[0].scrollIntoView(true);", googleIcon);
-//
-//        // Wait for 1 second just to ensure scroll
-//        try {
-//            Thread.sleep(1000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//
-//        googleIcon.click();
-//        Thread.sleep(2000);
-//
-//        driver.quit();
+
+      driver.get("https://demo.automationtesting.in/Register.html");
+
+      WebElement googleIcon = driver.findElement(By.xpath("//footer//a[contains(@href,'plus.google.com')]"));
+
+     // Scroll to the Google+ icon
+      JavascriptExecutor js = (JavascriptExecutor) driver;
+     js.executeScript("arguments[0].scrollIntoView(true);", googleIcon);
+     Thread.sleep(2000);
+     
+     js.executeScript("arguments[0].click();",googleIcon);
+     
+     System.out.println("Google Icon Clicked Successfully");
+     Thread.sleep(2000);
+        driver.quit();
         
-      JavascriptExecutor js=(JavascriptExecutor)driver;
-      
-      
-     js.executeScript("");
+     
       
     }
 }
