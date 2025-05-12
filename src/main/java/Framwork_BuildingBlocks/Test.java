@@ -11,22 +11,24 @@ public class Test {
 	
 	{
 		
-		Test obj = new Test(10,20,30);
+		Test obj = new Test(100,200,300,420);
 			
 	}
 	
 	
-	int X,Y,Z;
+	int Zakeer,Imran,Mustaq,Aman;
 	
-	Test(int a, int b, int c)
+	Test(int a, int b, int c, int d)
 	{
-		X=a;
-		Y=b;
-		Z=c;
+		Zakeer=a;
+		Imran=b;
+		Mustaq=c;
+		Aman=d;
 		
-		System.out.println("X:"+X);
-		System.out.println("Y:"+Y);
-		System.out.println("Z:"+Z);
+		System.out.println("Zakeer:"+Zakeer);
+		System.out.println("Imran"+Imran);
+		System.out.println("Mustaq:"+Mustaq);
+		System.out.println("Aman:"+Aman);
 		System.out.println("Parameterized Constructor");
 		
 		
