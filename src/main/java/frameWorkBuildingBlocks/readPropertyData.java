@@ -14,7 +14,7 @@ public class readPropertyData {
 		System.out.println(value);
 		
 
-//		
+
 		
 
 	}
