@@ -10,41 +10,42 @@ public class readPropertyData {
 
 	public static void main(String[] args) throws IOException {
 		
-		//readpersonalData("Name");
-		String value = readeducationData("Name");
+		String value = getPropertyData("browser");
 		System.out.println(value);
+		
 
 //		
 		
 
 	}
 
-	private static String readeducationData(String Key) throws IOException {
+	static String getPropertyData(String Key) throws IOException {
 		// TODO Auto-generated method stub
 	
 			
 			Properties prop = new Properties();
-			String path = System.getProperty("user.dir")+"\\TestData\\EducationData.properties";
+			String path = System.getProperty("user.dir")+"\\TestData\\propertyFile.properties";
 			File file = new File(path);
 			FileInputStream fis = new FileInputStream(file);
 			prop.load(fis);
 			String value = prop.getProperty(Key);
+			
 			return value;
 		
 	}
-//
-//	private static void readpersonalData(String key) throws IOException {
-//		// TODO Auto-generated method stub
-//		
-//		
-//		Properties prop = new Properties();
-//		String path = System.getProperty("user.dir")+"\\TestData\\personalData.properties";
-//		File file = new File(path);
-//		FileInputStream fis = new FileInputStream(file);
-//		prop.load(fis);
-//		String value = prop.getProperty(key);
-//		System.out.println(prop.getProperty(key));
-//	}
+
+	private static void readpersonalData(String key) throws IOException {
+		// TODO Auto-generated method stub
+		
+		
+		Properties prop = new Properties();
+		String path = System.getProperty("user.dir")+"\\TestData\\personalData.properties";
+		File file = new File(path);
+		FileInputStream fis = new FileInputStream(file);
+		prop.load(fis);
+		String value = prop.getProperty(key);
+		System.out.println(prop.getProperty(key));
+	}
 
 
 

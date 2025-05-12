@@ -45,6 +45,16 @@
     	<artifactId>ZakirHussainShaik</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.32.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
   </dependencies>
 
   <build>
