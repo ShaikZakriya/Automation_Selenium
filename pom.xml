@@ -51,6 +51,11 @@
     <artifactId>selenium-java</artifactId>
     <version>4.32.0</version>
 </dependency>
+  	<dependency>
+  		<groupId>Bluestone</groupId>
+  		<artifactId>ZakirHussainShaik</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>
