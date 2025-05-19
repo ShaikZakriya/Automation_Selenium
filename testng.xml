@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Java.test1"/>
+      <class name="TestNG.javaStreams"/>
+      <class name="Java.variables"/>
+      <class name="frameWorkBuildingBlocks.ReadExcelSheet"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

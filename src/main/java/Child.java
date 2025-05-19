@@ -8,6 +8,7 @@ public class Child extends parent{
 		Child c= new Child();
 		c.car();
 		c.home("1");
+		c.home();
 		
 		
 
@@ -18,7 +19,10 @@ public class Child extends parent{
 		
 	}
 	
-	
+	public void home(String name) {
+	    System.out.println(name);
+		System.out.println("Hyderabad-Home");
+	}
 
 	
 

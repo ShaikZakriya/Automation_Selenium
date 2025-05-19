@@ -46,9 +46,6 @@ public class AutoSuggestive {
 	    }
 		}
 
-		private static FileInputStream  new FileInputStream(String string) {
-			// TODO Auto-generated method stub
-			return null;
-		}
+		
 	}
 

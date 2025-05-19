@@ -13,10 +13,6 @@ public class readPropertyData {
 		String value = getPropertyData("browser");
 		System.out.println(value);
 		
-
-
-		
-
 	}
 
 	static String getPropertyData(String Key) throws IOException {
@@ -47,6 +43,6 @@ public class readPropertyData {
 		System.out.println(prop.getProperty(key));
 	}
 
-
-
 }
+
+

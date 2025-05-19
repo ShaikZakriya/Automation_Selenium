@@ -15,7 +15,7 @@ package AlphaPractise;
 			
 			WebElement cucumber = driver.findElement(By.xpath("//div[@class='product' and . //h4[text()='Cucumber - 1 Kg']]//a[@class='increment']"));
 			
-			for (int i=0; i<4; i++)
+			for (int i=0; i<5; i++)
 			{
 				cucumber.click();
 				Thread.sleep(1000);
