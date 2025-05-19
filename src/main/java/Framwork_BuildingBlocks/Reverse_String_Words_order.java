@@ -5,7 +5,7 @@ public class Reverse_String_Words_order {
     public static void main(String[] args) {
         String input = "My Name is Zakir";
         String reversed = reverseWords(input);
-        System.out.println("Reversed Output: " + reversed);
+        System.out.println(reversed);
     }
 
     private static String reverseWords(String input) {
