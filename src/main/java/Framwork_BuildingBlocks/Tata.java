@@ -8,6 +8,7 @@ public class Tata {
            Tata obj3 = new Tata(25);
            Tata ob2 = new Tata();
            Tata ob4 = new Tata('M');
+           Tata obj5 = new Tata("Zakriya",85);
 	
 	
 	}
@@ -17,35 +18,32 @@ public class Tata {
 	}
 	public void Fortuner()
 	{
-		
 	}
 	
 	public void Nexon() 
 	{
-		
-		
 	}
 	
 	public void harrier() 
 	{
-		
-		
 	}
 	
 	public Tata(String x) 
 	{
 		System.out.println(x);
-		
 	}
 
 	public Tata(int y) 
 	{
 		System.out.println(y);
-		
 	}
 	
 	public Tata (char M) {
-		
-		System.out.println(M);
+			System.out.println(M);
+	}
+	
+	public Tata(String y ,int i) 
+	{
+		System.out.println(y+"->"+":"+i);
 	}
 }
