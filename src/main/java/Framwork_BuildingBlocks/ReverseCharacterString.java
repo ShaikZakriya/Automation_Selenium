@@ -8,7 +8,7 @@ public class ReverseCharacterString {
 		
 		String input = "Blue";
 		
-		String reversed = new StringBuilder(input).reverse().toString();
+		String reversed = new StringBuilder(input).reverse().toString().toLowerCase();
 		System.out.println(reversed);
 		
 	
