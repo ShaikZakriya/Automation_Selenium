@@ -1,6 +1,13 @@
 package Java_Interview;
 public class Constructor_Overloading {
 
+	/*Constructor means the class name and method name should be same and the method has no return type
+	 * Created three methods with different parameters and print the values
+	 * after created the methods we need to create a obj to call for each method.
+	 * Constructor Overloading is nothing but ssame class and method name but different parameters
+	 * */
+	
+	
 	public static void main(String[] args) {
 		
 		Constructor_Overloading s = new Constructor_Overloading("Zakeer");
@@ -11,10 +18,10 @@ public class Constructor_Overloading {
 
 
 }
-	public void display (){
+public void display (){
 		
-		System.out.println("Display method called");
-	}
+	System.out.println("Display method called");
+}
 public void soldier() {	
 }
 public void king() {
@@ -22,6 +29,7 @@ public void king() {
 public void Kingdom() {
 }
 public Constructor_Overloading() {
+	
 }
 public Constructor_Overloading(String x) {	
 System.out.println("Constructor with String: " + x);
