@@ -1,17 +1,18 @@
 package Java;
 
-public class parent {
+public class parentclass {
 
 	public static void main(String[] args) {
-		parent p= new parent();
-		p.car();
-		p.home("Kurnool-Home");
-		
+		parentclass p= new parentclass();
+		p.home();
+	
+		p.home("Aman");
+		p.home("Automation");
 		
 
 	}
 
-	public void car() {
+	public void home() {
 		System.out.println("BMW");
 		
 	}
@@ -21,13 +22,10 @@ public class parent {
 		System.out.println("Kurnool-Home");
 	}
 
-	public void home() {
-		System.out.println("Gadwal-Home");
-		
-	}
+	
 
 	public void home(int name) {
-		System.out.println(name);
+		System.out.println("Aman");
 		
 	}
 	
